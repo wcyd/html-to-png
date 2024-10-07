@@ -1,7 +1,7 @@
 # html-to-png
 使用 Selenium 可以自动化浏览器操作，并将 HTML 页面渲染为图片。
 
-## html转4k图片
+## html转4k图片（html_4k.ipynb）
 使用 Selenium 可以自动化浏览器操作，并将 HTML 页面渲染为图片。Selenium 支持多种编程语言，其中 Python 是一个比较常用的选择。以下是通过 Selenium 使用 Chrome 浏览器自动渲染 HTML 并保存为图片的实现步骤。
 
 ### 准备工作：
@@ -75,7 +75,7 @@
 等待页面加载：如果你的 HTML 页面包含大量的 JavaScript 动态内容，可以通过 time.sleep(秒数) 来确保页面完全加载，也可以使用 Selenium 的 WebDriverWait 来等待特定元素加载完成。
 页面截图限制：默认情况下，save_screenshot 方法会捕捉整个页面，如果页面长度超过了窗口高度，可以通过调整页面滚动或者使用 fullPageScreenshot 等方式捕捉完整内容。
 
-## 增大分辨率，保存超高清图片
+## 增大分辨率，保存超高清图片(html_to_20k.py)
 图片模糊通常是因为截图分辨率不够高或者渲染过程中页面内容没有足够的清晰度。为了确保你得到超高清的截图，可以从以下几个方面调整和优化截图的方式。
 
 ### 解决方案：
